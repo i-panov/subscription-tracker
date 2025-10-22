@@ -1,0 +1,5 @@
+{
+  "name": "Subscription Tracker",
+  "description": "A simple application to track your various subscriptions, such as gym memberships or classes. It helps you monitor remaining sessions and expiration dates, storing all data locally on your device.",
+  "requestFramePermissions": []
+}
