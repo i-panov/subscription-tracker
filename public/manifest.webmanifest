@@ -1,0 +1,17 @@
+{
+  "name": "Трекер Абонементов",
+  "short_name": "Абонементы",
+  "description": "Простое приложение для отслеживания ваших абонементов.",
+  "theme_color": "#6366f1",
+  "background_color": "#1a1a1a",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
