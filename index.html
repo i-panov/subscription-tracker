@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#6366f1">
+    <link rel="apple-touch-icon" href="/assets/icon-192x192-kLiZUDni.png">
+    <link rel="icon" type="image/svg+xml" href="/assets/icon-192x192-kLiZUDni.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscription Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-bg': '#1a1a1a',
+                        'card-bg': '#2a2a2e',
+                        'primary': '#6366f1',
+                        'primary-hover': '#4f46e5',
+                        'secondary': '#a855f7',
+                        'accent': '#ec4899',
+                        'text-main': '#e5e7eb',
+                        'text-secondary': '#9ca3af',
+                    },
+                    keyframes: {
+                        'fade-in-up': {
+                            '0%': { opacity: '0', transform: 'translateY(10px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        },
+                        animation: {
+                            'fade-in-up': 'fade-in-up 0.2s ease-out',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="/index.css">
+  <script type="module" crossorigin src="/assets/index-DSVNcUCr.js"></script>
+<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
+<body class="bg-brand-bg text-text-main">
+<div id="root"></div>
+</body>
+</html>
